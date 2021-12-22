@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Roboto+Slab:wght@200;400&display=swap');
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    color:purple;
+    background-image: url(https://lucatdis.com.ar/wp-content/uploads/2020/05/Fondo-virtual-para-zoom-Toy-Story.jpeg);
+    background-size: cover;
+    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Roboto Slab', serif; */
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+/*navbar*/
+nav{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav a{
+    width: 100%;
+    text-decoration: none;
+    background-color: rgba(2, 2, 2, .9);
+    color: #FFF;
+    /* padding: 10px; */
+    text-align: center;
+    /* margin: auto; */
+    line-height: 2em;
+    border: black solid 2px;
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, .9);
+    color: rgba(2, 2, 2, .9);
+    transition: all 200ms ease;
+}
+/*Main*/
+main article{
+padding: 10px;
+}
+
+/*formulario*/
+.formulario{
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgba(2, 2, 2, .4);
+    color: #FFF;
+    border-radius: 1em;
+    padding: 1em;
+    position: relative;
+}
+.formulario input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#btn{
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+    /* float: right; */
+}
+/*FOOTER*/
+.footer{
+    background-color: rgba(2, 2, 2, .9);
+    text-align: center;
+    padding: 10px;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+/*GLOBALES*/
+.h1{
+    text-align: center;
+
+}
+
